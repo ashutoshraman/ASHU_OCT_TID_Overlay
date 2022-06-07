@@ -8,7 +8,7 @@ tid = Lib_DataProcess.TumorID() #use arg to specify int time
 ldcurrent = 80 #change to 250 when ready to actually scan
 
 data, wv = tid.measurment(50)
-#fname = 'white_spectra.csv'
+#fname = 'white_spectra.csv' 
 #tid.spec.save(data, wv, fname, 1) #uncomment when saving multiple spectra
 
 plt.figure(1)
